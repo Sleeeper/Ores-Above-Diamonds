@@ -1,0 +1,30 @@
+{
+	"item.oresabovediamonds.black_opal": "Black Opal" ,
+	"item.oresabovediamonds.amethyst": "Amethyst",
+	
+	"block.oresabovediamonds.amethyst_ore": "Amethyst Ore",
+	"block.oresabovediamonds.black_opal_ore": "Black Opal Ore",
+	
+	"item.oresabovediamonds.amethyst_sword": "Amethyst Sword",
+	"item.oresabovediamonds.amethyst_pickaxe": "Amethyst Pickaxe",
+	"item.oresabovediamonds.amethyst_shovel": "Amethyst Shovel",
+	"item.oresabovediamonds.amethyst_axe": "Amethyst Axe",
+	"item.oresabovediamonds.amethyst_hoe": "Amethyst Hoe",
+	
+	"item.oresabovediamonds.black_opal_sword": "Black Opal Sword",
+	"item.oresabovediamonds.black_opal_pickaxe": "Black Opal Pickaxe",
+	"item.oresabovediamonds.black_opal_shovel": "Black Opal Shovel",
+	"item.oresabovediamonds.black_opal_axe": "Black Opal Axe",
+	"item.oresabovediamonds.black_opal_hoe": "Black Opal Hoe",
+	
+	"item.oresabovediamonds.amethyst_helmet": "Amethyst Helmet",
+	"item.oresabovediamonds.amethyst_chestplate": "Amethyst Chestplate",
+	"item.oresabovediamonds.amethyst_leggings": "Amethyst Leggings",
+	"item.oresabovediamonds.amethyst_boots": "Amethyst Boots",
+	
+	"item.oresabovediamonds.black_opal_helmet": "Black Opal Helmet",
+	"item.oresabovediamonds.black_opal_chestplate": "Black Opal Chestplate",
+	"item.oresabovediamonds.black_opal_leggings": "Black Opal Leggings",
+	"item.oresabovediamonds.black_opal_boots": "Black Opal Boots"
+	
+}

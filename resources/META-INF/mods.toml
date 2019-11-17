@@ -1,0 +1,29 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory (28 is current forge version)
+[[mods]] #mandatory
+modId="oresabovediamonds" #mandatory
+version="1.3b" #mandatory
+displayURL="https://www.curseforge.com/minecraft/mc-mods/ores-above-diamonds" #optional
+displayName="Ores Above Diamonds" #mandatory
+logoFile="oresabovediamonds_logo.png" #optional
+# A text field displayed in the mod UI
+authors="Squidsword" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+Adds the Amethyst and Black Opal which are respectively 4x and 16x rarer than diamonds.
+Both have its own set of balanced armors and tools.
+
+It's recommended to download Overloaded Armor Bar along with this mod.
+This can be found by clicking on the Homepage link above, then click the link the description.
+
+Special thanks to the guys at the Minecraft Mod Development Discord.
+
+
+'''
+# Here's another dependency
+[[dependencies.oresabovediamonds]]
+    modId="overloadedarmorbar"
+    mandatory=false
+    versionRange="[3.0.0b,)"
+    ordering="AFTER"
+    side="CLIENT"
