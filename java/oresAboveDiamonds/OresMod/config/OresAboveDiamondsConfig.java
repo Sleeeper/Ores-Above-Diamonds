@@ -47,20 +47,20 @@ public class OresAboveDiamondsConfig
 		server_output = server.comment("Ore Generation Configuration");
 		
 		amethyst_chance = server
-				.comment("Chance for an Amethyst Ore vein to spawn in a chunk. 1.00 = As common as diamonds, 0.50 = Half as common as diamonds etc. Default = 0.25")
-				.defineInRange("oregen.amethyst_chance", 0.25d, 0.00, 1.00);
+				.comment("Chance for an Amethyst Ore vein to spawn in a chunk. 1.00 = As common as diamonds, 0.50 = Around half as common as diamonds etc. Default = 0.2875")
+				.defineInRange("oregen.amethyst_chance", 0.2875d, 0.00, 1.00);
 		
 		black_opal_chance = server
-				.comment("Chance for a Black Opal Ore vein to spawn in a chunk. Default = 0.0625")
-				.defineInRange("oregen.black_opal_chance", 0.0625d, 0.00, 1.00);
+				.comment("Chance for a Black Opal Ore vein to spawn in a chunk. Default = 0.0725")
+				.defineInRange("oregen.black_opal_chance", 0.0725d, 0.00, 1.00);
 		
 		amethyst_max_vein_size = server
-				.comment("Maximum vein size for an Amethyst Ore vein. For reference, diamonds have a max vein size of 8. Default = 6")
-				.defineInRange("oregen.amethyst_max_vein_size", 6, 0, 64);
+				.comment("Maximum vein size for an Amethyst Ore vein. For reference, diamonds have a max vein size of 8. Default = 7")
+				.defineInRange("oregen.amethyst_max_vein_size", 7, 0, 64);
 		
 		black_opal_max_vein_size = server
-				.comment("Maximum vein size for an Black Opal Ore vein. Default = 4")
-				.defineInRange("oregen.black_opal_max_vein_size", 4, 0, 64);
+				.comment("Maximum vein size for an Black Opal Ore vein. Default = 6")
+				.defineInRange("oregen.black_opal_max_vein_size", 6, 0, 64);
 		
 		server.comment("Enchantability Configuration");
 		

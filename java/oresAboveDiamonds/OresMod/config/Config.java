@@ -8,7 +8,7 @@ import com.electronwill.nightconfig.core.io.WritingMode;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.fml.common.Mod;
 import oresAboveDiamonds.OresMod.OresAboveDiamonds;
-
+//improved config coming up
 @Mod.EventBusSubscriber
 public class Config {
 	private static final ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();

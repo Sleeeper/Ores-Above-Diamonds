@@ -28,12 +28,13 @@ public class OreGeneration
 			ChanceRangeConfig amethyst_ore_placement = new ChanceRangeConfig(amethyst_chance, 0, 0, 16);
 			ChanceRangeConfig black_opal_ore_placement = new ChanceRangeConfig(black_opal_chance, 0, 0, 16);
 			
-				biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE,
-                    new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockList.amethyst_ore.getDefaultState(), OresAboveDiamondsConfig.amethyst_max_vein_size.get()), Placement.CHANCE_RANGE, amethyst_ore_placement));
+				biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
+                    new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockList.amethyst_ore.getDefaultState(), OresAboveDiamondsConfig.amethyst_max_vein_size.get())).func_227228_a_( Placement.CHANCE_RANGE.func_227446_a_(amethyst_ore_placement)));
 
 			
-				biome.addFeature(Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE,
-                    new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockList.black_opal_ore.getDefaultState(), OresAboveDiamondsConfig.black_opal_max_vein_size.get()), Placement.CHANCE_RANGE, black_opal_ore_placement));
+
+				biome.addFeature(Decoration.UNDERGROUND_ORES, Feature.ORE.func_225566_b_(
+                    new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockList.black_opal_ore.getDefaultState(), OresAboveDiamondsConfig.black_opal_max_vein_size.get())).func_227228_a_( Placement.CHANCE_RANGE.func_227446_a_(black_opal_ore_placement)));
 				
 		}
 	}
